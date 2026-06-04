@@ -13,8 +13,13 @@ class ApiError extends Error {
         this.success = false
         this.errors = errors
 
+<<<<<<< HEAD
         if(statck) {
             this.stack = statck
+=======
+        if(stack) {
+            this.stack = stack
+>>>>>>> 2127400 (first commit)
         } else {
             Error.captureStackTrace(this, this.constructor)
 

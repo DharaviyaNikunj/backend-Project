@@ -44,4 +44,8 @@ const videoSchema = new Schema(
 )
 
 videoSchema.plugin(mongooseAggregatePaginate)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2127400 (first commit)
 export const Video = mongoose.model("Video",videoSchema)
